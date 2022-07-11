@@ -144,7 +144,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 **2. Detailed statement on the advantages and disadvantages of the original and refactored VBA script.**
 
 > Improving or updating the code without changing the software’s functionality or external behavior of the application is known as code refactoring.
-Now, let's think about something, 
+ 
 
 
 
