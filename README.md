@@ -14,12 +14,8 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 - Add the VBA_Challenge.vbs script to the Microsoft Visual Basic editor.
 - Use the steps **Refactor VBA code and measure performance** to add code where indicated by the numbered comments in the starter code file.
 
-> Use your knowledge of VBA and the starter code provided in this Project to refactor the VBA Script dataset so we loop through the data one time and collect all of the information.
-
 #### Our Challenge Data Background
-> Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
-
-> Refactoring is a key part of the coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job.
+> Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years.
 
 ## RESULTS: Refactor VBA Code and Measure Performance
  
@@ -85,13 +81,6 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 - Commenting & Documentation, 
 - Consistent Indentation, 
 - Avoid Obvious Comments. 
-- Code Grouping,
-- Consistent Naming Scheme,
-- DRY (Don't Repeat Yourself) Principle, 
-- Avoid Deep Nesting,
-- Limit Line Length, etc...
-
-
 
 ![name-of-you-image](https://github.com/ZZaman1989/stock-analysis/blob/main/Resources/Comments%20to%20explain%20the%20purpose%20of%20the%20code.PNG)
 
@@ -99,7 +88,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 **7. The outputs for the 2017 and 2018 stock analyses in the `VBA_Challenge.xlsm` workbook match the outputs from the AllStockAnalysis in the module**
 
-> Finally, we run the stock analysis, to confirm that our stock analysis outputs for 2017 and 2018 are the same as dataset example provided (as shown in the images below, named **Dataset Examples Provided**). In adition, in our resources folder and below you can see the final Stock Analysis Results named, **Final VBA Analysis 2017 and 2018** save the pop-up messages showing elapsed run time for the refactored code as VBA_Challenge_2017.png and VBA_Challenge_2018.png. Then, save the changes to your workbook..
+> We run the stock analysis, to confirm that our stock analysis outputs for 2017 and 2018 are the same as dataset example provided (as shown in the images below, named **Dataset Examples Provided**). 
 
 ***Dataset Examples Provided***
 
@@ -132,14 +121,9 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 > - A long procedure may contain the same line of code in several locations, you can change the logic to eliminate the duplicate lines.
 > - A logical structure may be duplicated in two or more procedures (possibly via copy & paste coding). When detected, this logic is best moved to a new function and called from the other functions.
-> - A complex unstructured code is usually best to split in several functions. 
-> - Refactoring process can affect the testing outcomes. 
-
-
 **Advantages:**
 > - Logical errors easily appear in well structure code that contains nested conditionals and loops. 
 > - In our case, using Excel flow displays program logic in a more comprehensible manner, not tied to the order that the underlying code is written.
-> - VBA interpretation (Excel) of code can reveal patterns that are not easy to see in the source.
 
 **2. Detailed statement on the advantages and disadvantages of the original and refactored VBA script.**
 
